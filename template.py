@@ -2,6 +2,10 @@
 # (making files in src folder automatically and if we want to add new files into this 
 # than just to add file name it will check that name if it is already existing than it will skip otherwise it will be created)
 
+
+# We can make this automatically by "cookiecutter" (read documentation it's very easy!!)
+
+
 import os  # for define path
 from pathlib import Path
 import logging
